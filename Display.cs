@@ -29,10 +29,10 @@ namespace RayTracinginOneWeekendExamples
                 using (StreamWriter writer = new StreamWriter(path, true))
                 {
                     writer.WriteLine("P3");   
-                    writer.WriteLine(colors.Length + " " + colors[0].Length);   
+                    writer.WriteLine(colors[0].Length + " " + colors.Length);   
                     writer.WriteLine(255);  
 
-                    for (int i = 0; i < colors.Length; i++)
+                    for (int i = colors.Length - 1; i >= 0; i--)
                     {
                         string context = "";
                         for (int n = 0; n < colors[i].Length; n++)

@@ -4,7 +4,7 @@ namespace RayTracinginOneWeekendExamples
     //Output an image
     public class Chapter1
     {
-        Display display = new Display();
+        protected Display display = new Display();
 
         public void Run()
         {
@@ -18,7 +18,7 @@ namespace RayTracinginOneWeekendExamples
 
             string[][] colors = new string[heigh][];
 
-            for (int i = 0; i < heigh; i++)
+            for (int i = heigh - 1; i >= 0; i--)
             {
                 colors[i] = new string[width];
                 for (int j = 0; j < colors[i].Length; j++)
