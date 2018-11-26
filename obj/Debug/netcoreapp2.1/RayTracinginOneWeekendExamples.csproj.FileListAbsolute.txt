@@ -1,0 +1,11 @@
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\bin\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.deps.json
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\bin\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.runtimeconfig.json
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\bin\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.runtimeconfig.dev.json
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\bin\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.dll
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\bin\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.pdb
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\obj\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.csprojAssemblyReference.cache
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\obj\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.csproj.CoreCompileInputs.cache
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\obj\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.AssemblyInfoInputs.cache
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\obj\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.AssemblyInfo.cs
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\obj\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.dll
+D:\Users\Administrator\Documents\GitHub\RayTracinginOneWeekendExamples\obj\Debug\netcoreapp2.1\RayTracinginOneWeekendExamples.pdb
