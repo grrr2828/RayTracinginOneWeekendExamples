@@ -2,16 +2,11 @@ namespace RayTracinginOneWeekendExamples
 {
 
     //Rays, a simple camera, and background
-    public class Chapter3
+    public class Chapter3 : Chapter1
     {
-        Display display = new Display();
+     
 
-        public void Run()
-        {
-            display.DrawPPM( CreateImageContent() );
-        }
-
-        private string[][] CreateImageContent()
+        protected override string[][] CreateImageContent()
         {
             int width = 600;
             int heigh = 300;

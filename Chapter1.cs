@@ -11,7 +11,7 @@ namespace RayTracinginOneWeekendExamples
             display.DrawPPM( CreateImageContent() );
         }
 
-        private string[][] CreateImageContent()
+        protected virtual string[][] CreateImageContent()
         {
             int width = 500;
             int heigh = 600;

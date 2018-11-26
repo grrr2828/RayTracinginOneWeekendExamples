@@ -2,16 +2,10 @@ namespace RayTracinginOneWeekendExamples
 {
 
     //The vec3 class
-    public class Chapter2
+    public class Chapter2 : Chapter1
     {
-        Display display = new Display();
 
-        public void Run()
-        {
-            display.DrawPPM( CreateImageContent() );
-        }
-
-        private string[][] CreateImageContent()
+        protected override string[][] CreateImageContent()
         {
             int width = 500;
             int heigh = 600;
