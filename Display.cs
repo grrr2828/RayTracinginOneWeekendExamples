@@ -6,6 +6,12 @@ namespace RayTracinginOneWeekendExamples
     public class Display
     {
 
+        public string GetColor(int r, int g, int b)
+        {
+            return r + " " + g + " " + b;
+        }
+
+
         public void DrawPPM(string[][] colors)
         {
             try

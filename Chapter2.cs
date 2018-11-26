@@ -1,8 +1,8 @@
 namespace RayTracinginOneWeekendExamples
 {
 
-    //Output an image
-    public class Chapter1
+    //The vec3 class
+    public class Chapter2
     {
         Display display = new Display();
 
@@ -23,11 +23,12 @@ namespace RayTracinginOneWeekendExamples
                 colors[i] = new string[width];
                 for (int j = 0; j < colors[i].Length; j++)
                 {
-                    colors[i][j] = display.GetColor( 0, 100, 100 );
+                    Vector3 vec = new Vector3( 0, 100, 100 );
+                    colors[i][j] = display.GetColor( (int)vec.x, (int)vec.y, (int)vec.z );
                 }
             }
             return colors;
         }
-
     }
+
 }

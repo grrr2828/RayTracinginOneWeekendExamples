@@ -6,8 +6,8 @@ namespace RayTracinginOneWeekendExamples
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            new Chapter1().Run();
+            //new Chapter1().Run();
+            new Chapter2().Run();
         }
     }
 }
