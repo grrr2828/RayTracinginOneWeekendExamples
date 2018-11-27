@@ -35,7 +35,7 @@ namespace RayTracinginOneWeekendExamples
             return colors;
         }
 
-        private Vector3 GetColor(Ray r)
+        protected Vector3 GetColor(Ray r)
         {
             Vector3 normalize = Vector3.Normalize( r.Direction() );
             float t = 0.5f * ( normalize.y + 1.0f );
