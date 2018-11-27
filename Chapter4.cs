@@ -29,17 +29,23 @@ namespace RayTracinginOneWeekendExamples
 
                     Ray r = new Ray( origin, lower_left_corner +  horizontal * u + vertical * v );
 
-                    Vector3 vec = Vector3.zero;
-                    if( HitSphere( sphereCenter, radius, r ) ){
-                        vec = new Vector3( 0.5f, 0.5f, 0.5f );
-                    }else{
-                        vec = GetColor( r );
-                    }
-                    
+                    Vector3 vec = GetColor( sphereCenter, radius, r );  
                     colors[i][j] = display.GetColor( (int)(vec.x * 255), (int)(vec.y * 255), (int)(vec.z * 255) );
                 }
             }
             return colors;
+        }
+
+        protected virtual Vector3 GetColor( Vector3 center, float radius, Ray r)
+        {
+            Vector3 vec = Vector3.zero;
+            if( HitSphere( center, radius, r ) ){
+                vec = new Vector3( 0.5f, 0.5f, 0.5f );
+            }else{
+                vec = GetColor( r );
+            }
+
+            return vec;
         }
 
         private bool HitSphere(Vector3 center, float radius, Ray r)
