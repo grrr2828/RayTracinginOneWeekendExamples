@@ -10,7 +10,8 @@ namespace RayTracinginOneWeekendExamples
             //new Chapter2().Run();
             //new Chapter3().Run();
             //new Chapter4().Run();
-            new Chapter5().Run();
+            //new Chapter5().Run();
+            new Chapter5_2().Run();
         }
     }
 }

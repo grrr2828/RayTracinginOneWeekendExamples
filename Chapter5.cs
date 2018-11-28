@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace RayTracinginOneWeekendExamples
 {
@@ -49,7 +50,35 @@ namespace RayTracinginOneWeekendExamples
 
     public class Chapter5_2 : Chapter5
     {   
+        HitableList world;
+
+        public Chapter5_2()
+        {
+            List<Hitable> objList = new List<Hitable>();
+            objList.Add(new Sphere(new Vector3(0.0f,0.0f,-1.0f), 0.5f));
+            objList.Add(new Sphere(new Vector3(0.3f,0.0f,-1.0f), 0.3f));
+            objList.Add(new Sphere(new Vector3(0.0f,-100.5f,-1.0f), 100f));
+
+            world = new HitableList( objList );
         
+        }
+
+        protected override Vector3 GetColor( Vector3 center, float radius, Ray r)
+        {
+            Vector3 vec = Vector3.zero;
+            HitRecord rec = new HitRecord();
+            if( world.Hit(r, 0f, float.MaxValue, rec) ){
+                
+                var N = rec.normal;
+                vec = new Vector3( N.x + 1, N.y + 1, N.z + 1 ) * 0.5f;
+
+            }else{
+                vec = GetColor( r );
+            }
+
+            return vec;
+        }
+
     } 
 
 }
