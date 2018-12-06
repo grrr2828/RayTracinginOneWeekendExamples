@@ -1,4 +1,6 @@
 
+using System;
+using System.Collections.Generic;
 
 namespace RayTracinginOneWeekendExamples
 {
@@ -47,6 +49,11 @@ namespace RayTracinginOneWeekendExamples
     public static float Atan2(float a, float b)
     {
       return (float)System.Math.Atan2(a, b);
+    }
+
+    public static float Random()
+    {
+      return (float)new Random().Next(100) / 100f;
     }
   }
 }

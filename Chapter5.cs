@@ -50,7 +50,7 @@ namespace RayTracinginOneWeekendExamples
 
     public class Chapter5_2 : Chapter5
     {   
-        HitableList world;
+        protected HitableList world;
 
         public Chapter5_2()
         {
